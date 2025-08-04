@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --color-sky-50: #f0f9ff; /* Lightest */
+  --color-sky-100: #e0f2fe; /* Very light */
+  --color-sky-200: #bae6fd; /* Light */
+  --color-sky-300: #7dd3fc; /* Medium-light */
+  --color-sky-400: #38bdf8; /* Soft sky blue */
+  --color-sky-500: #0ea5e9; /* Primary color */
+  --color-sky-600: #0284c7; /* Slightly darker */
+  --color-sky-700: #0369a1; /* Darker */
+  --color-sky-800: #075985; /* Deep */
+  --color-sky-900: #0c4a6e; /* Darkest */
+  --color-sky-950: #072436; /* Near-black (extended beyond original palette) */
+
+  --color-slate-50: #f9fafb; /* Lightest */
+  --color-slate-100: #f3f4f6; /* Very light */
+  --color-slate-200: #e5e7eb; /* Light */
+  --color-slate-300: #d1d5db; /* Medium-light */
+  --color-slate-400: #9ca3af; /* Soft slate */
+  --color-slate-500: #6b7280; /* Base slate */
+  --color-slate-600: #4b5563; /* Slightly darker */
+  --color-slate-700: #374151; /* Darker */
+  --color-slate-800: #1f2937; /* Deep */
+  --color-slate-900: #111827; /* Darkest */
+  --color-slate-950: #080c13; /* Near-black (extended beyond original palette) */
+}
