@@ -7,7 +7,7 @@
           <h1
             class="text-4xl md:text-5xl lg:text-6xl font-bold font-space mb-4"
           >
-            Charles Andrew P. Barsubia
+            Some Guy
           </h1>
           <h2 class="text-2xl md:text-3xl text-dark-600 mb-6">
             Full Stack Developer
