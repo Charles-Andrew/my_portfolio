@@ -18,16 +18,19 @@
             creating effective solutions.
           </p>
           <div class="flex flex-wrap gap-4">
-            <ULink
-              to="#contact"
+            <UButton
+              label="Get in Touch"
+              @click.prevent="scrollToSection('contact')"
+              size="xl"
               class="px-6 py-3 bg-primary-600 text-white hover:text-white rounded-lg font-medium hover:bg-primary-700 transition"
-              >Get in Touch</ULink
-            >
-            <ULink
-              to="#projects"
+            />
+            <UButton
+              label="View Projects"
+              @click.prevent="scrollToSection('projects')"
+              variant="outline"
+              size="xl"
               class="px-6 py-3 border border-dark-300 rounded-lg font-medium hover:border-primary-500 hover:text-primary-600 transition"
-              >View Projects</ULink
-            >
+            />
           </div>
         </div>
         <div class="md:w-1/2 flex justify-center">

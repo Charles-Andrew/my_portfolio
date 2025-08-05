@@ -19,14 +19,13 @@ const props = defineProps<{
   >
     <template #header>
       <div
-        class="h-48 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center"
+        class="h-full w-auto bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center"
       >
         <NuxtPicture
           format="webp"
           :src="`/${imageUrl}`"
           :custom="true"
-          width="1000px"
-          height="600px"
+          sizes="100vw md:1000px"
           placeholder
           loading="lazy"
         />
