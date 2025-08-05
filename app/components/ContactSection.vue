@@ -11,62 +11,39 @@
         </p>
       </div>
 
-      <div class="max-w-4xl mx-auto">
+      <div class="max-w-3xl mx-auto">
         <div class="flex flex-col md:flex-row gap-12">
           <div class="md:w-full">
-            <div class="bg-primary-50 p-8 rounded-xl h-full">
+            <UCard class="bg-primary-50 p-8 rounded-xl h-full" variant="soft">
               <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
 
               <div class="space-y-6">
-                <div class="flex items-start">
-                  <div
-                    class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 mr-4"
-                  >
-                    <i class="fas fa-envelope"></i>
-                  </div>
-                  <div>
-                    <h4 class="font-bold mb-1">Email</h4>
-                    <p class="text-dark-600">hello@yourdomain.com</p>
-                  </div>
-                </div>
-
-                <div class="flex items-start">
-                  <div
-                    class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 mr-4"
-                  >
-                    <i class="fas fa-map-marker-alt"></i>
-                  </div>
-                  <div>
-                    <h4 class="font-bold mb-1">Location</h4>
-                    <p class="text-dark-600">San Francisco, California</p>
-                  </div>
-                </div>
-
-                <div class="flex items-start">
-                  <div
-                    class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 mr-4"
-                  >
-                    <i class="fab fa-linkedin-in"></i>
-                  </div>
-                  <div>
-                    <h4 class="font-bold mb-1">LinkedIn</h4>
-                    <p class="text-dark-600">linkedin.com/in/yourprofile</p>
-                  </div>
-                </div>
-
-                <div class="flex items-start">
-                  <div
-                    class="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 mr-4"
-                  >
-                    <i class="fab fa-github"></i>
-                  </div>
-                  <div>
-                    <h4 class="font-bold mb-1">GitHub</h4>
-                    <p class="text-dark-600">github.com/yourusername</p>
-                  </div>
-                </div>
+                <ContactInfo
+                  name="Email"
+                  value="barsubiacharles@gmail.com"
+                  icon="mdi:email"
+                  type="email"
+                />
+                <ContactInfo
+                  name="Location"
+                  value="Mlang, North Cotabato, Philippines, 9402"
+                  icon="mdi:map-marker-radius"
+                  type="string"
+                />
+                <ContactInfo
+                  name="LinkedIn"
+                  value="https://www.linkedin.com/in/charles-andrew-barsubia-70085a251/"
+                  icon="mdi:linkedin"
+                  type="link"
+                />
+                <ContactInfo
+                  name="Github"
+                  value="https://github.com/Charles-Andrew"
+                  icon="mdi:github-box"
+                  type="link"
+                />
               </div>
-            </div>
+            </UCard>
           </div>
         </div>
       </div>

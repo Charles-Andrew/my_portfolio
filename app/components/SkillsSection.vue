@@ -19,13 +19,14 @@
           name="JavaScript"
           level="Intermediate"
         />
+        <Skill icon="i-custom-typescript" name="Typescript" level="Beginner" />
         <Skill icon="i-custom-vue" name="Vue Js" level="Intermediate" />
         <Skill icon="i-custom-nuxt" name="Nuxt Js" level="Intermediate" />
         <Skill icon="i-custom-python" name="Python" level="Intermediate" />
         <Skill icon="i-custom-django-new" name="Django" level="Intermediate" />
         <Skill
           icon="i-custom-django-new"
-          name="Django Rest"
+          name="Django REST Framework"
           level="Intermediate"
         />
         <Skill

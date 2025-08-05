@@ -17,7 +17,7 @@
           description="A comprehensive software solution that streamlines human resource management through nine integrated modules, modernising operations and enhancing employee experience."
           position="Fullstack"
           :techs="['Django', 'HTMX', 'Tailwind', 'Redis', 'Django Q', 'MySQL']"
-          github-url="google.com"
+          github-url="https://github.com/Scholarly-RC/msmci_hris"
           :website-url="null"
           image-url="hris.webp"
         />
@@ -27,7 +27,7 @@
           description="A professional tool designed to help teams track deadlines, assign tasks, and stay organise."
           position="Fullstack"
           :techs="['Django REST', 'Nuxt Js', 'Tailwind', 'Redis', 'PostgreSQL']"
-          github-url="google.com"
+          github-url="https://github.com/Scholarly-RC/client_deadline_records_frontend"
           :website-url="null"
           image-url="cdt.webp"
         />
@@ -44,7 +44,7 @@
             'Redis',
             'PostgreSQL',
           ]"
-          github-url="google.com"
+          github-url="https://github.com/Scholarly-RC/scholarly_website_frontend"
           website-url="https://scholarlyconsulting.co/services"
           image-url="sw.webp"
         />

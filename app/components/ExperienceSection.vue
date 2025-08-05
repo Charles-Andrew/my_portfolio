@@ -12,102 +12,36 @@
       </div>
 
       <div class="max-w-3xl mx-auto">
-        <!-- Experience 1 -->
-        <div class="mb-12">
-          <div class="flex flex-col md:flex-row">
-            <div class="md:w-1/3 mb-4 md:mb-0">
-              <h3 class="text-xl font-bold">Senior Developer</h3>
-              <p class="text-primary-600">Tech Innovations Inc.</p>
-              <p class="text-dark-500 text-sm">2020 - Present</p>
-            </div>
-            <div class="md:w-2/3">
-              <p class="mb-4">
-                Leading development of enterprise-level applications and
-                mentoring junior developers. Responsibilities include
-                architectural design, code reviews, and implementing CI/CD
-                pipelines.
-              </p>
-              <div class="flex flex-wrap gap-2">
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >React</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >Node.js</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >AWS</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+        <Experience
+          job-title="Fullstack Web Developer"
+          company="FREELANCE"
+          date-range="2024 - Present"
+          brief-info="Specializing in responsive web applications using Vue.js (Nuxt) and Django REST Framework. Delivered scalable solutions, optimized performance by 30%, and implemented secure authentication systems. Collaborated with stakeholders to drive adoption and deployed projects via Railway for cloud hosting."
+          :techs="['Nuxt Js', 'Django REST', 'Tailwind', 'PostgreSQL', 'MySQL']"
+        />
+        <Experience
+          job-title="Junior Software Engineer"
+          company="MUGNA TECHNOLOGIES"
+          date-range="2022 - 2024"
+          brief-info="Specializing in scalable Django and MySQL systems. Optimized frontend performance with React and Tailwind CSS, improved release cycles by 15% through Agile collaboration, and enforced code quality via Git and peer reviews to reduce production issues."
+          :techs="[
+            'Django REST',
+            'Django',
+            'React',
+            'Next Js',
+            'Tailwind',
+            'PostgreSQL',
+            'MySQL',
+          ]"
+        />
 
-        <!-- Experience 2 -->
-        <div class="mb-12">
-          <div class="flex flex-col md:flex-row">
-            <div class="md:w-1/3 mb-4 md:mb-0">
-              <h3 class="text-xl font-bold">Full Stack Developer</h3>
-              <p class="text-primary-600">Digital Solutions Co.</p>
-              <p class="text-dark-500 text-sm">2018 - 2020</p>
-            </div>
-            <div class="md:w-2/3">
-              <p class="mb-4">
-                Developed and maintained multiple web applications for clients
-                across various industries. Collaborated with designers to
-                implement responsive interfaces and optimize user experience.
-              </p>
-              <div class="flex flex-wrap gap-2">
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >JavaScript</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >Python</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >Django</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Experience 3 -->
-        <div>
-          <div class="flex flex-col md:flex-row">
-            <div class="md:w-1/3 mb-4 md:mb-0">
-              <h3 class="text-xl font-bold">Junior Developer</h3>
-              <p class="text-primary-600">Startup Ventures</p>
-              <p class="text-dark-500 text-sm">2016 - 2018</p>
-            </div>
-            <div class="md:w-2/3">
-              <p class="mb-4">
-                Worked in an agile team to build and launch a SaaS product.
-                Contributed to both frontend and backend development while
-                learning best practices in software engineering.
-              </p>
-              <div class="flex flex-wrap gap-2">
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >Ruby on Rails</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >Vue.js</span
-                >
-                <span
-                  class="bg-white border border-dark-300 text-dark-700 px-3 py-1 rounded-full text-sm"
-                  >PostgreSQL</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
+        <Experience
+          job-title="Software Engineer Intern"
+          company="NOTRE DAME OF KIDAPAWAN COLLEGE"
+          date-range="2022 - 2022"
+          brief-info="Engineered a Python-based chatbot using Flask and NLP to automate student inquiries, reducing administrative workload by 20%. Enhanced dialogue logic to improve response accuracy and user engagement through iterative testing and refinement."
+          :techs="['Flask', 'Facebook Messenger API']"
+        />
       </div>
     </UContainer>
   </section>
