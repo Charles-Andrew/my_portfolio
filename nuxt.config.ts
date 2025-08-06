@@ -32,7 +32,6 @@ export default defineNuxtConfig({
   },
   image: {
     dir: "assets/images",
-    provider: "ipx",
   },
   nitro: {
     output: {
