@@ -12,6 +12,7 @@ const props = defineProps({
 
 <template>
   <UCard
+    v-motion-pop-visible
     class="bg-white rounded-xl shadow-sm border border-dark-100 text-center hover:shadow-md transition hover:-translate-y-1"
   >
     <div

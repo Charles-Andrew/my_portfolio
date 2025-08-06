@@ -61,7 +61,7 @@ import MobileNavbar from "./MobileNavbar.vue";
       </div>
       <div class="flex items-center space-x-4">
         <UButton
-          to="https://drive.google.com/uc?export=download&id=1DMBcNzyljhqSxocueHhNb_qA1XEVx9RJ"
+          to="https://drive.google.com/uc?export=download&id=1Ov0wLhwboQBPs4ak6pMPInUYUQ7ZVgec"
           target="_blank"
           label="Download CV"
           variant="solid"

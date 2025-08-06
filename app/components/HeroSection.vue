@@ -5,9 +5,17 @@
         <div class="md:w-1/2 mb-12 md:mb-0">
           <p class="text-primary-600 font-medium mb-2">Hello, I'm</p>
           <h1
+            v-motion
+            :initial="{ scale: 1, opacity: 0 }"
+            :enter="{ scale: 1, opacity: 1 }"
+            :hovered="{
+              scale: 1.1,
+            }"
+            :delay="200"
+            :duration="700"
             class="text-4xl md:text-5xl lg:text-6xl font-bold font-space mb-4"
           >
-            Some Guy
+            Charles Andrew P Barsubia
           </h1>
           <h2 class="text-2xl md:text-3xl text-dark-600 mb-6">
             Full Stack Developer

@@ -31,16 +31,10 @@
                   type="string"
                 />
                 <ContactInfo
-                  name="LinkedIn"
-                  value="https://www.linkedin.com/in/charles-andrew-barsubia-70085a251/"
-                  icon="mdi:linkedin"
-                  type="link"
-                />
-                <ContactInfo
-                  name="Github"
-                  value="https://github.com/Charles-Andrew"
-                  icon="mdi:github-box"
-                  type="link"
+                  name="Phone Number (Viber, Whatsapp)"
+                  value="+639307694071"
+                  icon="mdi:phone-in-talk"
+                  type="phone"
                 />
               </div>
             </UCard>

@@ -12,6 +12,7 @@ const props = defineProps<{
 
 <template>
   <UCard
+    v-motion-slide-visible-top
     class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition transform hover:-translate-y-1"
     :ui="{
       body: 'h-[22rem] overflow-y-auto',

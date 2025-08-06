@@ -9,7 +9,7 @@ const props = defineProps<{
 </script>
 
 <template>
-  <div class="mb-12">
+  <div v-motion-slide-visible-left class="mb-12">
     <div class="flex flex-col md:flex-row">
       <div class="md:w-1/3 mb-4 md:mb-0">
         <h3 class="text-xl font-bold">{{ jobTitle }}</h3>
