@@ -25,8 +25,7 @@ const props = defineProps<{
         <NuxtPicture
           format="webp"
           :src="`/${imageUrl}`"
-          :custom="true"
-          sizes="100vw md:1000px"
+          height="700px"
           placeholder
           loading="lazy"
         />

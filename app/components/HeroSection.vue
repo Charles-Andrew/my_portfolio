@@ -52,10 +52,11 @@
                 <NuxtPicture
                   format="webp"
                   src="/profile-pic.webp"
-                  :custom="true"
-                  width="1000px"
-                  placeholder
+                  height="500"
+                  width="500"
                   loading="lazy"
+                  placeholder
+                  preload
                 />
               </div>
             </div>
