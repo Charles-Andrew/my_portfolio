@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
   modules: ["@nuxt/eslint", "@nuxt/image", "@nuxt/ui", "@vueuse/motion/nuxt"],
-  ssr: false,
   typescript: {
     typeCheck: true,
   },
@@ -31,6 +30,7 @@ export default defineNuxtConfig({
     ],
   },
   image: {
+    provider: "ipx",
     dir: "assets/images",
   },
   nitro: {

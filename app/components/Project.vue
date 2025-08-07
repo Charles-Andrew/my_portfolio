@@ -23,7 +23,6 @@ const props = defineProps<{
         class="h-full w-auto bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center"
       >
         <NuxtPicture
-          format="webp"
           :src="`/${imageUrl}`"
           height="700px"
           placeholder

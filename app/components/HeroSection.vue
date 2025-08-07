@@ -50,7 +50,6 @@
                 class="bg-gray-200 border-none rounded-full w-56 h-56 md:w-72 md:h-72"
               >
                 <NuxtPicture
-                  format="webp"
                   src="/profile-pic.webp"
                   height="500"
                   width="500"
